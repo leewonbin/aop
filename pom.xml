@@ -144,7 +144,7 @@
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
-			<version>1.3.1</version>
+			<version>1.3.2</version>
 		</dependency>
 		<!-- spring-jdbc -->
 		<dependency>
@@ -171,8 +171,13 @@
 			<version>4.3.8.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
-
-
+		<!-- lombok maven -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.22</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>aop</finalName>
