@@ -20,19 +20,19 @@ import com.bdi.sp.dao.AwsTestDAO;
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
 public class DBConTest {
 	
-	@Autowired
+	/*@Autowired
 	private AwsTestDAO atdao;
 	
 	
-	/*@Test
+	@Test
 	public void test() throws SQLException {
 		List<Map<String,String>> atList = ss.selectList("com.bdi.sp.aws_test.selectawstestList");
 		assertEquals(1, atList.size());
 		log.info("atList=>{}",atList);
 	}
-*/
+
 	@Test
 	public void test() throws SQLException {
 		assertEquals(1, atdao.selectAwsTestList().size());
-	}
+	}*/
 }
